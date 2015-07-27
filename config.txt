@@ -1,0 +1,19 @@
+open .cmd write 
+1.) php -r "readfile('https://getcomposer.org/installer');" | php
+ENTER
+downloading composer...
+2.) php composer.phar create-project laravel/laravel --prefer-dist
+------------------------------------------------------------------
+cut all files in public/ and past the ./
+open index.php and change
+
+require __DIR__.'/../bootstrap/autoload.php';
+require __DIR__.'/bootstrap/autoload.php';
+
+AND
+
+$app = require_once __DIR__.'/../bootstrap/app.php';
+$app = require_once __DIR__.'/bootstrap/app.php';
+
+------------------------------------------------------------------
+

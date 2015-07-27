@@ -17,3 +17,20 @@ $app = require_once __DIR__.'/bootstrap/app.php';
 
 ------------------------------------------------------------------
 
+Create Controller. Example:
+
+php artisan make:controller NameController
+------------------------------------------------------------------
+
+Create Model with migrate. Example:
+
+php artisan make:model Product -m
+------------------------------------------------------------------
+Create table with migrate. Example:
+
+php artisan migrate
+------------------------------------------------------------------
+Connect with DB
+
+open ./.env/
+------------------------------------------------------------------

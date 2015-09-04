@@ -15,6 +15,13 @@ AND
 $app = require_once __DIR__.'/../bootstrap/app.php';
 $app = require_once __DIR__.'/bootstrap/app.php';
 
+OR
+
+create ./.htaccess
+__________________
+RewriteEngine On
+RewriteRule ^(.*)$ public/$1 [L]
+
 ------------------------------------------------------------------
 
 Create Controller. Example:

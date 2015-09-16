@@ -1,0 +1,17 @@
+download and instal VirtualBox and Vagrant
+1. C://Users/username/ create folder, example` projects
+2. Open .cmd install Laravel
+3. Open git write: git clone https://github.com/laravel/homestead.git Homestead
+4. cmd: homestead init
+5. cmd: homestead edit
+and edit datas
+6. cmd: cd Homestead
+7. vagrant up
+WILL BE SUCCESSFULLY!!!
+
+8. in hosts write: 127.0.0.1      project.dev
+
+URL must be: project.dev:8000
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!:))))))))))))))))))))))))))))))))))
+
